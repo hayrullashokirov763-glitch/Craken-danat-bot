@@ -24,7 +24,7 @@ class DonationState(StatesGroup):
 TEXTS = {
     'uz': {
         'welcome': "Assalomu alaykum! Donat botimizga xush kelibsiz. O'yinni tanlang:",
-        'admin_contact': f"Ushbu o'yin bo'yicha donat qilish uchun adminga murojaat qiling: @{craken_donat_admin}",
+        'admin_contact': f"Ushbu o'yin bo'yicha donat qilish uchun adminga murojaat qiling: @craken_donat_admin",
         'select_package': "Kerakli valyuta paketini tanlang (narxlar so'mda, 15% ustama bilan):",
         'ask_id_nick': "Iltimos, o'yindagi **ID** va **Nickname (Tahlallusingiz)**ni birgalikda yuboring:",
         'send_payment': "To'lovni amalga oshiring:\n\n💳 **Karta:** `{karta}`\n💰 **Summa:** {price}\n\nTo'lovni amalga oshirgach, **chek (rasm)**ni shu yerga yuboring.",
@@ -34,7 +34,7 @@ TEXTS = {
     },
     'ru': {
         'welcome': "Здравствуйте! Добро пожаловать в донат бот. Выберите игру:",
-        'admin_contact': f"Для доната в эту игру напишите админу: @{craken_donat_admin}",
+        'admin_contact': f"Для доната в эту игру напишите админу: @craken_donat_admin",
         'select_package': "Выберите нужный пакет (цены в сумах с учетом 15% надбавки):",
         'ask_id_nick': "Пожалуйста, отправьте ваш игровой **ID** и **Никнейм**:",
         'send_payment': "Совершите оплату:\n\n💳 **Карта:** `{karta}`\n💰 **Сумма:** {price}\n\nПосле оплаты отправьте **чек (фото)** сюда.",
@@ -44,7 +44,7 @@ TEXTS = {
     },
     'en': {
         'welcome': "Welcome to our donation bot! Select a game:",
-        'admin_contact': f"To donate for this game, please contact the admin: @{craken_donat_admin}",
+        'admin_contact': f"To donate for this game, please contact the admin: @craken_donat_admin",
         'select_package': "Select the desired package (prices in UZS with 15% markup):",
         'ask_id_nick': "Please send your in-game **ID** and **Nickname**:",
         'send_payment': "Make the payment:\n\n💳 **Card:** `{karta}`\n💰 **Amount:** {price}\n\nAfter payment, send the **receipt (photo)** here.",
