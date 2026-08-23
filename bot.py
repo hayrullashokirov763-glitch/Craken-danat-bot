@@ -1,3 +1,12 @@
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
+
+class S(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+
+threading.Thread(target=lambda: HTTPServer(('0.0.0.0', 10000), S).serve_forever(), daemon=True).start()
 import os
 import asyncio
 from aiogram import Bot, Dispatcher, F
